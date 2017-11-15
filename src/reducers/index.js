@@ -6,9 +6,7 @@ export default function ingredientReducer(state = [], action) {
         action.payload
       ]
     case 'REMOVE_INGREDIENT':
-      const newList = state.filter(ingredient => {
-        return ingredient !== action.payload
-      })
+      const newList = state.filter(ingredient => ingredient !== action.payload)
       return newList
     default:
       return state
