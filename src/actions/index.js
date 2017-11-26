@@ -1,4 +1,4 @@
-// import {ADD_INGREDIENT} from './types'
+// impo// import {ADD_INGREDIENT} from './types'
 // import {REMOVE_INGREDIENT} from './types'
 
 export function addIngredient(ingredient) {

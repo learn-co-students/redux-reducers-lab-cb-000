@@ -7,7 +7,7 @@ import { Ingredient } from './Ingredient';
 class IngredientList extends Component {
   constructor(props) {
     super(props)
-  
+
   }
 
   handleClick(index) {
