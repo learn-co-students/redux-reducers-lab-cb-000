@@ -2,14 +2,8 @@
   "name": "redux-reducers-lab",
   "version": "0.1.0",
   "description": "Practice writing out reducers",
-  "engines": {
-    "node": "6.9.1",
-    "npm": "3.x"
-  },
   "main": "src/index.js",
   "scripts": {
-    "debug": "node-debug --hidden node_modules _mocha --watch",
-    "debug-ide": "./bin/debug-ide",
     "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json",
     "test:watch": "npm run test -- --watch",
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
@@ -40,8 +34,8 @@
     "jsdom": "^9.4.1",
     "mocha": "^3.0.1",
     "mocha-multi": "^0.9.1",
-    "node-inspector": "^0.12.8",
     "react-addons-test-utils": "^15.3.2",
+    "react-test-renderer": "^15.3.0",
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.16.2"
   },
